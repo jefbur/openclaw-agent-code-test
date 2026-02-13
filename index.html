@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Trends 2026 | The Future is Now</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">TechTrends</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#trends">Trends</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#future">Future</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    The Future is 
+                    <span class="gradient-text">Here</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Discover the most groundbreaking technology trends shaping our world in 2026
+                </p>
+                <button class="cta-button" onclick="scrollToSection('trends')">
+                    Explore Trends
+                    <span class="button-icon">→</span>
+                </button>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-element" style="--delay: 0s">AI</div>
+                <div class="floating-element" style="--delay: 0.5s">Quantum</div>
+                <div class="floating-element" style="--delay: 1s">Blockchain</div>
+                <div class="floating-element" style="--delay: 1.5s">AR/VR</div>
+                <div class="floating-element" style="--delay: 2s">5G</div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="trends" class="trends">
+        <div class="container">
+            <h2 class="section-title">Current Tech Trends</h2>
+            <div class="trends-grid">
+                <article class="trend-card" data-trend="ai">
+                    <div class="card-icon">🤖</div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>Large Language Models, AGI development, and AI integration across all industries</p>
+                    <div class="trend-stats">
+                        <span class="stat">Growth: 340%</span>
+                        <span class="stat">Impact: High</span>
+                    </div>
+                </article>
+
+                <article class="trend-card" data-trend="quantum">
+                    <div class="card-icon">⚛️</div>
+                    <h3>Quantum Computing</h3>
+                    <p>Breakthrough in quantum supremacy, cryptography, and complex problem solving</p>
+                    <div class="trend-stats">
+                        <span class="stat">Growth: 180%</span>
+                        <span class="stat">Impact: Revolutionary</span>
+                    </div>
+                </article>
+
+                <article class="trend-card" data-trend="arvr">
+                    <div class="card-icon">🥽</div>
+                    <h3>Extended Reality</h3>
+                    <p>AR/VR/MR technologies creating immersive digital experiences</p>
+                    <div class="trend-stats">
+                        <span class="stat">Growth: 220%</span>
+                        <span class="stat">Impact: Medium</span>
+                    </div>
+                </article>
+
+                <article class="trend-card" data-trend="blockchain">
+                    <div class="card-icon">🔗</div>
+                    <h3>Blockchain & Web3</h3>
+                    <p>Decentralized finance, NFTs, and distributed ledger technologies</p>
+                    <div class="trend-stats">
+                        <span class="stat">Growth: 150%</span>
+                        <span class="stat">Impact: Medium</span>
+                    </div>
+                </article>
+
+                <article class="trend-card" data-trend="iot">
+                    <div class="card-icon">📡</div>
+                    <h3>Internet of Things</h3>
+                    <p>Smart cities, connected devices, and edge computing revolution</p>
+                    <div class="trend-stats">
+                        <span class="stat">Growth: 190%</span>
+                        <span class="stat">Impact: High</span>
+                    </div>
+                </article>
+
+                <article class="trend-card" data-trend="green">
+                    <div class="card-icon">🌱</div>
+                    <h3>Green Technology</h3>
+                    <p>Sustainable energy, carbon capture, and environmentally conscious innovation</p>
+                    <div class="trend-stats">
+                        <span class="stat">Growth: 280%</span>
+                        <span class="stat">Impact: Critical</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="insights" class="insights">
+        <div class="container">
+            <h2 class="section-title">Market Insights</h2>
+            <div class="insights-container">
+                <div class="insight-chart">
+                    <canvas id="trendChart" width="400" height="300"></canvas>
+                </div>
+                <div class="insight-text">
+                    <h3>Key Findings</h3>
+                    <ul class="insight-list">
+                        <li>AI adoption increased 340% in enterprise environments</li>
+                        <li>Quantum computing investments reached $15B globally</li>
+                        <li>Green tech funding surpassed traditional energy by 2:1</li>
+                        <li>Extended reality market expected to hit $300B by 2028</li>
+                        <li>IoT devices projected to exceed 75 billion by 2030</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="future" class="future">
+        <div class="container">
+            <h2 class="section-title">Looking Ahead</h2>
+            <div class="future-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2026</div>
+                    <div class="timeline-content">
+                        <h4>AI Everywhere</h4>
+                        <p>Personalized AI assistants become standard in all devices</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2027</div>
+                    <div class="timeline-content">
+                        <h4>Quantum Breakthrough</h4>
+                        <p>First practical quantum computers for commercial use</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2028</div>
+                    <div class="timeline-content">
+                        <h4>Metaverse Integration</h4>
+                        <p>Seamless AR/VR experiences in work and entertainment</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2030</div>
+                    <div class="timeline-content">
+                        <h4>Sustainable Revolution</h4>
+                        <p>Green technology achieves cost parity with traditional methods</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🚀</span>
+                    <span class="logo-text">TechTrends 2026</span>
+                </div>
+                <p class="footer-text">
+                    Exploring the intersection of innovation and possibility
+                </p>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#trends">Trends</a>
+                    <a href="#insights">Insights</a>
+                    <a href="#future">Future</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
